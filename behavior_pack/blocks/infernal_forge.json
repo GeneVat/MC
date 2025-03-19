@@ -1,0 +1,33 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:block": {
+    "description": {
+      "identifier": "furina:infernal_forge",
+      "menu_category": {
+        "category": "equipment"
+      }
+    },
+    "components": {
+      "minecraft:destructible_by_mining": {
+        "seconds_to_destroy": 30
+      },
+      "minecraft:block_light_emission": 0.8,
+      "minecraft:crafting_table": {
+        "custom_description": "Infernal Forge",
+        "grid_size": 4,
+        "crafting_tags": ["infernal_forge"]
+      },
+      "minecraft:fuel": {
+        "duration": 20,
+        "accepted_items": ["minecraft:blaze_powder"]
+      },
+      "minecraft:geometry": "geometry.infernal_forge",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "infernal_forge",
+          "render_method": "opaque"
+        }
+      }
+    }
+  }
+}

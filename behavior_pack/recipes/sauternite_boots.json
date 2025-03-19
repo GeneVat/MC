@@ -1,0 +1,23 @@
+{
+    "format_version": "1.12",
+    "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "furina:sauternite_boots"
+      },
+    "tags": [ "crafting_table" ],
+    "pattern": [
+            "# #",
+            "#*#"
+            ],
+      "key": {
+        "P": {
+          "item": "minecraft:leather"
+        },
+        "#": {
+          "item": "furina:sauternite_ingot"          }
+        },
+    "result": {
+        "item": "furina:sauternite_boots"        
+    }
+      }
+    }
